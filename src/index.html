@@ -7,12 +7,32 @@
     <title>مثال على اللغة العربية</title>
   </head>
   <body>
-    <main>
-      <nav
-        class="bg-red-700 flex justify-between items-center text-white py-3 text-[18px] small-screen"
+    <main class="relative">
+      <form
+        class="flex items-center justify-center fixed top-[50%] left-[50%] w-screen h-screen translate-x-[-50%] translate-y-[-50%] z-40"
       >
-        <div class="w-40 img-bg">
-          <img class="w-40" src="pubic/3isk-logo.png" alt="" />
+        <input
+          type="text"
+          placeholder="ابحث عن أي أفلام أو مسلسلات تلفزيونية للمشاهدة والاستمتاع."
+        />
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="currentColor"
+          class="size-7"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M10.5 3.75a6.75 6.75 0 1 0 0 13.5 6.75 6.75 0 0 0 0-13.5ZM2.25 10.5a8.25 8.25 0 1 1 14.59 5.28l4.69 4.69a.75.75 0 1 1-1.06 1.06l-4.69-4.69A8.25 8.25 0 0 1 2.25 10.5Z"
+            clip-rule="evenodd"
+          />
+        </svg>
+      </form>
+      <nav
+        class="bg-red-700 flex justify-between items-center sticky top-0 z-30 text-white py-3 text-[18px] small-screen"
+      >
+        <div class="w-40 img-bg mr-5">
+          <img class="w-40 cursor-pointer" src="pubic/3isk-logo.png" alt="" />
         </div>
         <div class="hidden md:inline-block">
           <ul class="flex gap-4 items-center">
