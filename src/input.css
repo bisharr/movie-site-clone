@@ -45,6 +45,10 @@
   .grid-10 {
     grid-template-columns: repeat(1, 1fr);
   }
+  .padding-x {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
 }
 .red-bg-hover {
   background-color: rgba(202, 23, 23, 0.312);
