@@ -26,22 +26,22 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
   .grid-40 {
     grid-template-columns: repeat(4, 1fr);
   }
 }
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   .grid-30 {
     grid-template-columns: repeat(3, 1fr);
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 700px) {
   .grid-20 {
     grid-template-columns: repeat(2, 1fr);
   }
 }
-@media (max-width: 300px) {
+@media (max-width: 600px) {
   .grid-10 {
     grid-template-columns: repeat(1, 1fr);
   }
