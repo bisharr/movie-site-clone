@@ -8,18 +8,32 @@
   </head>
   <body>
     <main class="relative">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        fill="white"
+        class="cancel-btn hidden w-10 h-10 fixed right-10 top-10 z-50 p-3 bg-blue-600 cursor-pointer"
+      >
+        <path
+          fill-rule="evenodd"
+          d="M5.47 5.47a.75.75 0 0 1 1.06 0L12 10.94l5.47-5.47a.75.75 0 1 1 1.06 1.06L13.06 12l5.47 5.47a.75.75 0 1 1-1.06 1.06L12 13.06l-5.47 5.47a.75.75 0 0 1-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 0 1 0-1.06Z"
+          clip-rule="evenodd"
+        />
+      </svg>
+
       <form
-        class="flex items-center justify-center fixed top-[50%] left-[50%] w-screen h-screen translate-x-[-50%] translate-y-[-50%] z-40"
+        class="form-bg flex items-center justify-center fixed top-[50%] left-[50%] w-[100%] h-screen translate-x-[-50%] translate-y-[-50%] z-40"
       >
         <input
+          class="w-[50%] border-none outline-none focus:outline-none focus:border-none"
           type="text"
           placeholder="ابحث عن أي أفلام أو مسلسلات تلفزيونية للمشاهدة والاستمتاع."
         />
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
-          fill="currentColor"
-          class="size-7"
+          fill="white"
+          class="w-8 h-10 absolute left-[25%] bg-red-600 p-2"
         >
           <path
             fill-rule="evenodd"
@@ -59,12 +73,12 @@
           </ul>
         </div>
 
-        <div class="flex space-x-5 items-center ul-content">
+        <div class="flex space-x-5 items-center ul-content self-stretch">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
             fill="currentColor"
-            class="size-7"
+            class="search-icon h-[100%] size-7 ml-5 hover:bg-gray-700 transition-all duration-150 cursor-pointer"
           >
             <path
               fill-rule="evenodd"
@@ -76,7 +90,7 @@
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
             fill="currentColor"
-            class="size-7"
+            class="h-[100%] size-7 ml-5 hover:bg-gray-700 transition-all duration-150 cursor-pointer"
           >
             <path
               fill-rule="evenodd"
@@ -88,7 +102,7 @@
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
             fill="currentColor"
-            class="size-7 md:hidden"
+            class="size-7 md:hidden h-[100%] ml-5 hover:bg-gray-700 transition-all duration-150 cursor-pointer"
           >
             <path
               fill-rule="evenodd"
@@ -411,7 +425,7 @@
           </div>
           <div class="relative text-center">
             <img
-              class="h-[100%] w-[100%] object-contain"
+              class="h-[100%] w-[100%] object-cover"
               src="pubic/m-10.jpg"
               alt="movie 1"
             />
@@ -443,8 +457,180 @@
               </svg>
             </div>
           </div>
+          <div class="relative text-center">
+            <img
+              class="h-[100%] w-[100%] object-cover"
+              src="pubic/m-11.jpg"
+              alt="movie 1"
+            />
+            <div
+              class="bg-red-700 flex items-center flex-col justify-center absolute top-3 left-3 p-2 text-white"
+            >
+              <p class="text-[10px]">حلقة</p>
+              <p class="font-bold">10</p>
+            </div>
+            <p
+              class="text-[13px] absolute bottom-3 left-[50%] font-semibold text-white translate-x-[-50%]"
+            >
+              مسلسل "مشردون" من 10 حلقات.
+            </p>
+            <div
+              class="opacity-0 hover:opacity-100 transition-all red-bg-hover duration-150 cursor-pointer w-[100%] h-[100%] absolute flex items-center justify-center top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="white"
+                class="size-28"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M4.5 5.653c0-1.427 1.529-2.33 2.779-1.643l11.54 6.347c1.295.712 1.295 2.573 0 3.286L7.28 19.99c-1.25.687-2.779-.217-2.779-1.643V5.653Z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </div>
+          </div>
+          <div class="relative text-center">
+            <img
+              class="h-[100%] w-[100%] object-cover"
+              src="pubic/m-12.jpg"
+              alt="movie 1"
+            />
+            <div
+              class="bg-red-700 flex items-center flex-col justify-center absolute top-3 left-3 p-2 text-white"
+            >
+              <p class="text-[10px]">حلقة</p>
+              <p class="font-bold">85</p>
+            </div>
+            <p
+              class="text-[13px] absolute bottom-3 left-[50%] font-semibold text-white translate-x-[-50%]"
+            >
+              مسلسل "مشردون" من 85 حلقات.
+            </p>
+            <div
+              class="opacity-0 hover:opacity-100 transition-all red-bg-hover duration-150 cursor-pointer w-[100%] h-[100%] absolute flex items-center justify-center top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="white"
+                class="size-28"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M4.5 5.653c0-1.427 1.529-2.33 2.779-1.643l11.54 6.347c1.295.712 1.295 2.573 0 3.286L7.28 19.99c-1.25.687-2.779-.217-2.779-1.643V5.653Z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </div>
+          </div>
+          <div class="relative text-center">
+            <img
+              class="h-[100%] w-[100%] object-cover"
+              src="pubic/m-13.jpg"
+              alt="movie 1"
+            />
+            <div
+              class="bg-red-700 flex items-center flex-col justify-center absolute top-3 left-3 p-2 text-white"
+            >
+              <p class="text-[10px]">حلقة</p>
+              <p class="font-bold">26</p>
+            </div>
+            <p
+              class="text-[13px] absolute bottom-3 left-[50%] font-semibold text-white translate-x-[-50%]"
+            >
+              مسلسل "مشردون" من 26 حلقات.
+            </p>
+            <div
+              class="opacity-0 hover:opacity-100 transition-all red-bg-hover duration-150 cursor-pointer w-[100%] h-[100%] absolute flex items-center justify-center top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="white"
+                class="size-28"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M4.5 5.653c0-1.427 1.529-2.33 2.779-1.643l11.54 6.347c1.295.712 1.295 2.573 0 3.286L7.28 19.99c-1.25.687-2.779-.217-2.779-1.643V5.653Z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </div>
+          </div>
+          <div class="relative text-center">
+            <img
+              class="h-[100%] w-[100%] object-cover"
+              src="pubic/m-14.jpg"
+              alt="movie 1"
+            />
+            <div
+              class="bg-red-700 flex items-center flex-col justify-center absolute top-3 left-3 p-2 text-white"
+            >
+              <p class="text-[10px]">حلقة</p>
+              <p class="font-bold">10</p>
+            </div>
+            <p
+              class="text-[13px] absolute bottom-3 left-[50%] font-semibold text-white translate-x-[-50%]"
+            >
+              مسلسل "مشردون" من 10 حلقات.
+            </p>
+            <div
+              class="opacity-0 hover:opacity-100 transition-all red-bg-hover duration-150 cursor-pointer w-[100%] h-[100%] absolute flex items-center justify-center top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="white"
+                class="size-28"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M4.5 5.653c0-1.427 1.529-2.33 2.779-1.643l11.54 6.347c1.295.712 1.295 2.573 0 3.286L7.28 19.99c-1.25.687-2.779-.217-2.779-1.643V5.653Z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </div>
+          </div>
+          <div class="relative text-center">
+            <img
+              class="h-[100%] w-[100%] object-cover"
+              src="pubic/m-15.jpg"
+              alt="movie 1"
+            />
+            <div
+              class="bg-red-700 flex items-center flex-col justify-center absolute top-3 left-3 p-2 text-white"
+            >
+              <p class="text-[10px]">حلقة</p>
+              <p class="font-bold">4</p>
+            </div>
+            <p
+              class="text-[13px] absolute bottom-3 left-[50%] font-semibold text-white translate-x-[-50%]"
+            >
+              مسلسل "مشردون" من 4 حلقات.
+            </p>
+            <div
+              class="opacity-0 hover:opacity-100 transition-all red-bg-hover duration-150 cursor-pointer w-[100%] h-[100%] absolute flex items-center justify-center top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="white"
+                class="size-28"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M4.5 5.653c0-1.427 1.529-2.33 2.779-1.643l11.54 6.347c1.295.712 1.295 2.573 0 3.286L7.28 19.99c-1.25.687-2.779-.217-2.779-1.643V5.653Z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </div>
+          </div>
         </div>
       </section>
     </main>
+
+    <script src="index.js"></script>
   </body>
 </html>

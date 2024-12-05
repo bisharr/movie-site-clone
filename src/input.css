@@ -53,3 +53,10 @@
 .red-bg-hover {
   background-color: rgba(202, 23, 23, 0.312);
 }
+.form-bg {
+  background-color: rgba(0, 0, 0, 0.877);
+}
+
+.hidden-class {
+  display: none;
+}
